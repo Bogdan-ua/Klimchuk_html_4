@@ -1,0 +1,219 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: Tahoma;
+  font-size: 14px;
+  background-color: #0c739f;
+}
+.fon-top-bg{
+  height: 28px;
+  background-color: #128aa7;
+  border-bottom: 1px solid #5ef0ff;
+}
+.fon-centr-bg{
+  height: 146px;
+  background: linear-gradient(to bottom, #11cde1, #fff);
+}
+.fon-centr2-bg{
+  height: 816px;
+  background: linear-gradient(to bottom, #11cde1, #0c739f);
+}
+.wrapper{
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+  box-shadow: 0 15px 15px 1px #084e6a;
+}
+.heder{
+  height: 175px;
+  background-color: #fff;
+  color: #128aa7;
+}
+.logo{
+  position: relative;
+  float: left;
+  width: 310px;
+  height: 175px;
+  padding-left: 25px;
+  text-align: center;
+  line-height: 175px;
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.logo > a{
+  position: relative;
+  top: 30px;
+  left: -40px;
+  text-decoration: none;
+  color: #128aa7;
+}
+.contacts{
+  float: right;
+  width: 150px;
+  height: 80px;
+  padding-top: 10px;
+  text-align: left;
+  font-size: 12px;
+}
+.contacts h4{
+  font-size: 110%;
+  line-height: 24px;
+}
+.menu-header{
+  float: right;
+  width: 600px;
+  height: 60px;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 10px;
+}
+.menu-header li{
+  float: left;
+  margin: 8px;
+
+}
+.menu-header ul{
+  position:absolute;
+  right: 20px;
+}
+.menu-header a{
+  color: #128aa7;
+}
+.foto{
+  height: 237px;
+  border-top: 1px solid #128aa7;
+  border-bottom: 1px solid #128aa7;
+}
+/*---------------------------------menu NAVIGATION------------------------------*/
+ul{
+  display: block;
+  list-style-type: none;
+}
+.navigation{
+  position: relative;
+  height: 28px;
+  background-color: #303030;
+  border-bottom: 1px solid #000;
+  box-shadow: 0 2px 5px #555;
+  z-index: 1;
+}
+.menu > li{
+  float: left;
+  position: relative;
+}
+.menu > li > a {
+  display: block;
+  padding: 5px 10px;
+  color: white;
+  text-decoration: none;
+}
+.submenu {
+  display: none;
+  width: 150px;
+  position: absolute;
+  top: 29px;
+  left: 0;
+  z-index: 1;
+  box-shadow: 0 2px 10px #555;
+}
+.submenu > li {
+  display: block;
+  background-color: #303030;
+}
+.submenu > li > a {
+  display: block;
+  padding: 5px 10px;
+  text-align: left;
+  color: white;
+  text-decoration: none;
+}
+.menu > li:hover > ul.submenu {
+  display: block;
+}
+.gol{
+  width: 170px;
+}
+.travel, .services, .partners, .otzuv, .contacts_menu{
+  width: 150px;
+  text-align: left;
+}
+.onas{
+  width: 80px;
+}
+.treg::after {
+  float: left;
+  content: '';
+  position: absolute;
+  margin-left: 7px;
+  bottom: 7px;
+  border: 3px solid transparent;
+  border-top: 5px solid #fff;
+}
+/*---------------------------------Content------------------------------*/
+.content{
+  position: relative;
+  overflow: hidden;
+  border-bottom: 3px solid #000;
+}
+.content h3{
+  line-height: 36px;
+}
+.fon-left-ct{
+  width: 100%;
+  float: left;
+  position: relative;
+  right: 60%;
+  background-color: #edeef0;
+  border-right: 1px solid #c7cacf;
+}
+.fon-centr-ct{
+  width: 100%;
+  float: left;
+  position: relative;
+  right: 20%;
+  background-color: #fff;
+  border-right: 1px solid #c7cacf;
+}
+.fon-right-ct{
+  width: 100%;
+  float: left;
+  background-color: #edeef0;
+}
+.left-colum-ct{
+  width: 20%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  left: 80%;
+  line-height: 24px;
+}
+.centr-colum-ct{
+  width: 60%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  left: 80%;
+  }
+.right-colum-ct{
+  width: 20%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  left: 80%;
+  line-height: 24px;
+}
+/*---------------------------------Futer------------------------------*/
+.futer{
+  height: 30px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 30px;
+  color: #cee3ec;
+  box-shadow: 0 30px 1px 30px #0c739f;
+}
